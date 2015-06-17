@@ -102,4 +102,5 @@ alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 
 # setting for git 
-alias lola="git log --graph --decorate --pretty=oneline --abbrev-commit --all"
+alias lola-all="git log --graph --decorate --pretty=oneline --abbrev-commit --all"
+alias lola="git log --graph --decorate --pretty=oneline --abbrev-commit"
