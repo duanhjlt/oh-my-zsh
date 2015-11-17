@@ -104,3 +104,6 @@ alias -s bz2='tar -xjvf'
 # setting for git 
 alias lola-all="git log --graph --decorate --pretty=oneline --abbrev-commit --all"
 alias lola="git log --graph --decorate --pretty=oneline --abbrev-commit"
+
+# 设置mac crash分析的环境变量
+export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
