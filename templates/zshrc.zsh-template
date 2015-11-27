@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git autojump)
 
 # User configuration
 
@@ -91,7 +91,7 @@ alias javac="javac -J-Dfile.encoding=utf8"
 alias grep="grep --color=auto"
 alias -s html=mate   # 在命令行直接输入后缀为 html 的文件名，会在 TextMate 中打开
 alias -s rb=mate     # 在命令行直接输入 ruby 文件，会在 TextMate 中打开
-alias -s py=vi       # 在命令行直接输入 python 文件，会用 vim 中打开，以下类似
+#alias -s py=vi       # 在命令行直接输入 python 文件，会用 vim 中打开，以下类似
 alias -s js=vi
 alias -s c=vi
 alias -s java=vi
@@ -104,6 +104,3 @@ alias -s bz2='tar -xjvf'
 # setting for git 
 alias lola-all="git log --graph --decorate --pretty=oneline --abbrev-commit --all"
 alias lola="git log --graph --decorate --pretty=oneline --abbrev-commit"
-
-# 设置mac crash分析的环境变量
-export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
