@@ -55,7 +55,9 @@ plugins=(git autojump)
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
-
+export PATH=/opt/local/bin:$PATH 
+export PATH=/opt/local/sbin:$PATH
+export PATH=/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources:$PATH
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
@@ -104,6 +106,9 @@ alias -s bz2='tar -xjvf'
 # setting for git 
 alias lola-all="git log --graph --decorate --pretty=oneline --abbrev-commit --all"
 alias lola="git log --graph --decorate --pretty=oneline --abbrev-commit"
+
+# Pod
+alias pod-update="pod update --verbose --no-repo-update"
 
 # 设置mac crash分析的环境变量
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
