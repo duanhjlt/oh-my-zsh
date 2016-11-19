@@ -52,12 +52,10 @@ ZSH_THEME="robbyrussell"
 plugins=(git autojump)
 
 # User configuration
+source $ZSH/custom/common.sh
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-# export MANPATH="/usr/local/man:$MANPATH"
-export PATH=/opt/local/bin:$PATH 
-export PATH=/opt/local/sbin:$PATH
-export PATH=/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources:$PATH
+[ -s "/Users/alexander/.nvm/nvm.sh" ] && . "/Users/alexander/.nvm/nvm.sh" # This loads nvm
+
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
@@ -85,30 +83,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias cls='clear'
-alias ll='ls -l'
-alias la='ls -a'
-alias vi='vim'
-alias javac="javac -J-Dfile.encoding=utf8"
-alias grep="grep --color=auto"
-alias -s html=mate   # 在命令行直接输入后缀为 html 的文件名，会在 TextMate 中打开
-alias -s rb=mate     # 在命令行直接输入 ruby 文件，会在 TextMate 中打开
-#alias -s py=vi       # 在命令行直接输入 python 文件，会用 vim 中打开，以下类似
-alias -s js=vi
-alias -s c=vi
-alias -s java=vi
-alias -s txt=vi
-alias -s gz='tar -xzvf'
-alias -s tgz='tar -xzvf'
-alias -s zip='unzip'
-alias -s bz2='tar -xjvf'
 
-# setting for git 
-alias lola-all="git log --graph --decorate --pretty=oneline --abbrev-commit --all"
-alias lola="git log --graph --decorate --pretty=oneline --abbrev-commit"
+rm -rf .zcompdump*
 
-# Pod
-alias pod-update="pod update --verbose --no-repo-update"
-
-# 设置mac crash分析的环境变量
-export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
