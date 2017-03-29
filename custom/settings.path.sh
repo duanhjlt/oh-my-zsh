@@ -8,3 +8,5 @@ export PATH=/Users/alexander/Projects/ReposEx/depot_tools:$PATH
 # 设置mac crash分析的环境变量
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
 
+# JAVA_HOME
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home"
