@@ -7,7 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="kolo"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -53,12 +53,16 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git autojump)
 
+[ -s "/Users/alexander/.nvm/nvm.sh" ] && . "/Users/alexander/.nvm/nvm.sh" # This loads nvm
+
+[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
+
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 source $ZSH/custom/common.sh
 
-[ -s "/Users/alexander/.nvm/nvm.sh" ] && . "/Users/alexander/.nvm/nvm.sh" # This loads nvm
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -87,5 +91,5 @@ source $ZSH/custom/common.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-rm -rf .zcompdump*
-
+if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi
+function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
