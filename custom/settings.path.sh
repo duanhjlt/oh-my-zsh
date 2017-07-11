@@ -3,7 +3,9 @@
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
 
 # JAVA_HOME
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home"
+
+export CLOUDSDK_CORE_PROJECT="richard-prox2"
 
 [ -s "~/.nvm/nvm.sh" ] && . "~/.nvm/nvm.sh" #This loads nvm
 
@@ -25,6 +27,6 @@ export PATH=/opt/local/sbin:$PATH
 export PATH=/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources:$PATH
 export PATH=/usr/libexec:$PATH
 export PATH=~/.fastlane/bin:$PATH
-export PATH=~/Projects/Sources/pdfium/depot_tools:$PATH
+export PATH=~/Projects/Repos/depot_tools:$PATH
 
 
