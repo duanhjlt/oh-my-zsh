@@ -21,3 +21,5 @@ alias -s bz2='tar -xjvf'
 # Pod
 alias pod-update="pod update --verbose --no-repo-update"
 
+# xdm
+alias xdm="/Applications/XDM.app/Contents/MacOS/XDM do Release "
