@@ -28,6 +28,6 @@ export PATH=/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Curr
 export PATH=/usr/libexec:$PATH
 export PATH=~/.fastlane/bin:$PATH
 export PATH=/usr/local/mysql/bin:$PATH
-export PATH=~/repos/depot_tools:$PATH
+export PATH=~/repo/depot_tools:$PATH
 
 
