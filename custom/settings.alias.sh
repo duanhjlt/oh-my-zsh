@@ -18,6 +18,21 @@ alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 
+alias rm=trash
+alias r=trash
+alias rl='ls ~/.trash'
+alias ur=undelfile
+undelfile()
+{
+  mv -i ~/.trash/$@ ./
+}
+trash()
+{
+  mv $@ ~/.trash/
+}
+
+
+
 # Pod
 alias pod-update="pod update --verbose --no-repo-update"
 
