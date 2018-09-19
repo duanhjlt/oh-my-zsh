@@ -31,7 +31,7 @@ trash()
   mv $@ ~/.trash/
 }
 
-
+alias lg='lazygit'
 
 # Pod
 alias pod-update="pod update --verbose --no-repo-update"
