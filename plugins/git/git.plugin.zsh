@@ -152,6 +152,8 @@ compdef _git ggpull=git-checkout
 alias ggpush='git push origin $(git_current_branch)'
 compdef _git ggpush=git-checkout
 
+alias ggpush2='git push origin HEAD:refs/for/$(git_current_branch)'
+
 alias ggpushf='git push -f origin $(git_current_branch)'
 compdef _git ggpushf=git-checkout
 

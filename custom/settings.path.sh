@@ -3,7 +3,7 @@
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
 
 # JAVA_HOME
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home"
 
 export CLOUDSDK_CORE_PROJECT="richard-prox2"
 
