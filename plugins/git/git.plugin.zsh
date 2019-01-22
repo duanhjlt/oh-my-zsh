@@ -153,6 +153,10 @@ alias ggpush='git push origin $(git_current_branch)'
 compdef _git ggpush=git-checkout
 
 alias ggpush2='git push origin HEAD:refs/for/$(git_current_branch)'
+alias ggpushz='git push origin HEAD:refs/for/$(git_current_branch)%r=zouxu@comisys.net'
+alias ggpusht='git push origin HEAD:refs/for/$(git_current_branch)%r=tianguangxin@comisys.net'
+alias ggpushm='git push origin HEAD:refs/for/$(git_current_branch)%r=maxiaoping@comisys.net'
+alias ggpusha='git push origin HEAD:refs/for/$(git_current_branch)%r=zouxu@comisys.net,r=maxiaoping@comisys.net,r=tianguangxin@comisys.net'
 
 alias ggpushf='git push -f origin $(git_current_branch)'
 compdef _git ggpushf=git-checkout
