@@ -21,13 +21,14 @@ function gi() {
 }
 
 # PATH
-export PATH=~/bin:/usr/local/bin:$PATH
-export PATH=/opt/local/bin:$PATH
-export PATH=/opt/local/sbin:$PATH
-export PATH=/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources:$PATH
-export PATH=/usr/libexec:$PATH
-export PATH=~/.fastlane/bin:$PATH
-export PATH=/usr/local/mysql/bin:$PATH
-export PATH=~/repo/depot_tools:$PATH
-
-
+export PATH=$PATH:~/bin:/usr/local/bin
+export PATH=$PATH:/opt/local/bin
+export PATH=$PATH:/opt/local/sbin
+export PATH=$PATH:/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources
+export PATH=$PATH:/usr/libexec
+export PATH=$PATH:~/.fastlane/bin
+export PATH=$PATH:/usr/local/mysql/bin
+export PATH=$PATH:~/repo/depot_tools
+export PATH=$PATH:~/Projects/Sources/flutter/bin
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
