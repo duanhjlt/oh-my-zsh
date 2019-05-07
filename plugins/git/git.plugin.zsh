@@ -153,11 +153,11 @@ alias ggpush='git push origin $(git_current_branch)'
 compdef _git ggpush=git-checkout
 
 alias ggpush2='git push origin HEAD:refs/for/$(git_current_branch)'
-alias ggpushd='git push origin HEAD:refs/for/$(git_current_branch)%r=duanhongjin@comisys.net'
-alias ggpushz='git push origin HEAD:refs/for/$(git_current_branch)%r=zouxu@comisys.net'
-alias ggpusht='git push origin HEAD:refs/for/$(git_current_branch)%r=tianguangxin@comisys.net'
-alias ggpushm='git push origin HEAD:refs/for/$(git_current_branch)%r=maxiaoping@comisys.net'
-alias ggpusha='git push origin HEAD:refs/for/$(git_current_branch)%r=zouxu@comisys.net,r=maxiaoping@comisys.net,r=tianguangxin@comisys.net'
+alias ggpushd='git push origin HEAD:refs/for/$(git_current_branch)%r=L-duanhongjin01@qianxin.com'
+alias ggpushz='git push origin HEAD:refs/for/$(git_current_branch)%r=L-zouxu1@qianxin.com'
+alias ggpusht='git push origin HEAD:refs/for/$(git_current_branch)%r=L-tianguangxin@qianxin.com'
+alias ggpushm='git push origin HEAD:refs/for/$(git_current_branch)%r=L-maxiaoping@qianxin.com'
+alias ggpusha='git push origin HEAD:refs/for/$(git_current_branch)%r=L-zouxu1@qianxin.com,r=L-maxiaoping@qianxin.com,r=L-tianguangxin@qianxin.com'
 
 alias ggpushf='git push -f origin $(git_current_branch)'
 compdef _git ggpushf=git-checkout
