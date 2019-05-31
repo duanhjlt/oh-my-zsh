@@ -39,3 +39,4 @@ alias pod-update="pod update --verbose --no-repo-update"
 # xdm
 alias xdm="/Applications/XDM.app/Contents/MacOS/XDM do Release "
 alias xdmd="/Applications/XDM.app/Contents/MacOS/XDM do Debug "
+alias xdm2="/Applications/XDM2.app/Contents/MacOS/XDM do \"\" "
