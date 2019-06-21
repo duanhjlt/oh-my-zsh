@@ -41,3 +41,10 @@ alias pod-update="pod update --verbose --no-repo-update"
 alias xdm="/Applications/XDM.app/Contents/MacOS/XDM do Release "
 alias xdmd="/Applications/XDM.app/Contents/MacOS/XDM do Debug "
 alias xdm2="/Applications/XDM2.app/Contents/MacOS/XDM do \"\" "
+
+# emacs
+EMACS_HOME=/Applications/Emacs.app/Contents/MacOS
+# 在终端下打开文件,替换命令行默认的emacs
+alias emacs="${EMACS_HOME}/Emacs -nw"
+# GUI方式打开文件
+alias emacsf="${EMACS_HOME}/bin/emacsclient -n"
