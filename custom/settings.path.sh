@@ -9,7 +9,7 @@ export CLOUDSDK_CORE_PROJECT="richard-prox2"
 
 export GOPATH="/Users/duanhongjin/go"
 export GOROOT="/usr/local/go"
-
+export GOBIN=$GOPATH/bin
 
 [ -s "~/.nvm/nvm.sh" ] && . "~/.nvm/nvm.sh" #This loads nvm
 
@@ -25,6 +25,7 @@ function gi() {
 }
 
 # PATH
+export PATH=$PATH:$GOBIN:$GOROOT/bin
 export PATH=$PATH:/Library/Apple/usr/bin
 export PATH=$PATH:~/bin:/usr/local/bin
 export PATH=$PATH:/opt/local/bin
