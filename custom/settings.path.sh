@@ -7,9 +7,13 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Ho
 
 export CLOUDSDK_CORE_PROJECT="richard-prox2"
 
-export GOPATH="/Users/duanhongjin/go"
+#export GOPATH=/Users/duanhongjin/go
+#export GOPATH=~/go
+export GOPATH=~/Projects/repos/go
 export GOROOT="/usr/local/go"
 export GOBIN=$GOPATH/bin
+export ANDROID_HOME=~/Library/Android/sdk/
+export ANDROID_NDK_HOME=~/Library/Android/android-ndk-r20b
 
 [ -s "~/.nvm/nvm.sh" ] && . "~/.nvm/nvm.sh" #This loads nvm
 
