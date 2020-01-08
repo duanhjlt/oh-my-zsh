@@ -7,6 +7,10 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Ho
 
 export CLOUDSDK_CORE_PROJECT="richard-prox2"
 
+export GOPATH="/Users/duanhongjin/go"
+export GOROOT="/usr/local/go"
+
+
 [ -s "~/.nvm/nvm.sh" ] && . "~/.nvm/nvm.sh" #This loads nvm
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
@@ -21,6 +25,7 @@ function gi() {
 }
 
 # PATH
+export PATH=$PATH:/Library/Apple/usr/bin
 export PATH=$PATH:~/bin:/usr/local/bin
 export PATH=$PATH:/opt/local/bin
 export PATH=$PATH:/opt/local/sbin
