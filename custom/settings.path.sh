@@ -39,6 +39,6 @@ export PATH=$PATH:/usr/libexec
 export PATH=$PATH:~/.fastlane/bin
 export PATH=$PATH:/usr/local/mysql/bin
 export PATH=$PATH:~/repo/depot_tools
-export PATH=$PATH:~/Projects/Sources/flutter/bin
+export PATH=$PATH:~/Projects/flutter/bin
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
