@@ -13,7 +13,7 @@ export GOPATH=~/Projects/repos/go
 export GOROOT="/usr/local/go"
 export GOBIN=$GOPATH/bin
 export ANDROID_HOME=~/Library/Android/sdk/
-export ANDROID_NDK_HOME=~/Library/Android/android-ndk-r20b
+export ANDROID_NDK_HOME=~/Library/Android/sdk/ndk/21.0.6113669
 
 [ -s "~/.nvm/nvm.sh" ] && . "~/.nvm/nvm.sh" #This loads nvm
 
@@ -43,3 +43,6 @@ export PATH=$PATH:~/Projects/flutter/bin
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export FLUTTER_HOME=/Volumes/External/Projects/flutter
+export GOPROXY=https://goproxy.cn
+export GOSUMDB=sum.golang.org
+
