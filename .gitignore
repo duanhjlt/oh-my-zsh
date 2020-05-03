@@ -1,15 +1,13 @@
-<<<<<<< HEAD
 locals.zsh
 log/.zsh_history
 projects.zsh
 #custom
-=======
 # custom files
 custom/
->>>>>>> robbyrussell/master
 !custom/plugins/example
 !custom/example.zsh
 
 # temp files directories
 cache/
 log/
+.DS_Store
