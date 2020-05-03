@@ -13,7 +13,7 @@ export GOPATH=~/Projects/repos/go
 export GOROOT="/usr/local/go"
 export GOBIN=$GOPATH/bin
 export ANDROID_HOME=~/Library/Android/sdk/
-export ANDROID_NDK_HOME=~/Library/Android/sdk/ndk/21.0.6113669
+export ANDROID_NDK_HOME=~/Library/Android/sdk/ndk/ndk-link
 
 [ -s "~/.nvm/nvm.sh" ] && . "~/.nvm/nvm.sh" #This loads nvm
 
