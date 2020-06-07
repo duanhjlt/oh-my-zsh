@@ -42,6 +42,10 @@ alias xdm="/Applications/XDM.app/Contents/MacOS/XDM do Release "
 alias xdmd="/Applications/XDM.app/Contents/MacOS/XDM do Debug "
 alias xdm2="/Applications/XDM2.app/Contents/MacOS/XDM do \"\" "
 
+# xpm
+alias xpms='/Applications/xpm.app/Contents/MacOS/xpm do simulator '
+alias xpmd='/Applications/xpm.app/Contents/MacOS/xpm do device '
+
 # emacs
 EMACS_HOME=/Applications/Emacs.app/Contents/MacOS
 # 在终端下打开文件,替换命令行默认的emacs
