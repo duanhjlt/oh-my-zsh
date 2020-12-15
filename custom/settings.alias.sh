@@ -52,3 +52,5 @@ EMACS_HOME=/Applications/Emacs.app/Contents/MacOS
 alias emacs="${EMACS_HOME}/Emacs -nw"
 # GUI方式打开文件
 alias emacsf="${EMACS_HOME}/bin/emacsclient -n"
+
+alias xlog="~/.oh-my-zsh/custom/xlog.sh"
