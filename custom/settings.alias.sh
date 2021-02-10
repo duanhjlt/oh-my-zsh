@@ -23,13 +23,5 @@ alias r=trash
 alias rl='ls ~/.trash'
 alias ur=undelfile
 alias g++='g++ -std=c++11'
-undelfile()
-{
-  mv -i ~/.trash/$@ ./
-}
-trash()
-{
-  mv $@ ~/.trash/
-}
 
 alias lg='lazygit'
