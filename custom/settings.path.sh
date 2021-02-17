@@ -2,7 +2,7 @@ export CLOUDSDK_CORE_PROJECT="richard-prox2"
 
 #export GOPATH=/Users/duanhongjin/go
 #export GOPATH=~/go
-export GOPATH=C:/Data/Workspace/go
+export GOPATH=C:/workspace/go
 export GOROOT="C:/go"
 export GOBIN=$GOPATH/bin
 
