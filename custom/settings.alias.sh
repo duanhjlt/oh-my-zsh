@@ -18,9 +18,6 @@ alias -s tgz='tar -xzvf'
 #alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 
-alias rm=trash
-alias r=trash
-alias rl='ls ~/.trash'
 alias ur=undelfile
 alias g++='g++ -std=c++11'
 
