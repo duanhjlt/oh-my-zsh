@@ -44,6 +44,7 @@ export PATH=$PATH:~/Library/Android/sdk/platform-tools
 export PATH=$PATH:~/Library/Android/sdk/tools
 export PATH=/usr/local/opt/qt/bin:$PATH
 export PATH=/usr/local/protobuf/bin:$PATH
+export PATH=$PATH:~/Qt/5.15.1/clang_64/bin
 export LDFLAGS="-L/usr/local/opt/qt/lib"
 export CPPFLAGS="-I/usr/local/opt/qt/include"
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
