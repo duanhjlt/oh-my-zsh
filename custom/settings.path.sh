@@ -47,6 +47,7 @@ export PATH=/usr/local/opt/qt/bin:$PATH
 export PATH=/usr/local/protobuf/bin:$PATH
 export PATH=$PATH:~/.pub-cache/bin
 export PATH=$PATH:~/Qt/5.15.1/clang_64/bin
+export PATH=/usr/local/opt/dart@2.8/bin:$PATH
 export LDFLAGS="-L/usr/local/opt/qt/lib"
 export CPPFLAGS="-I/usr/local/opt/qt/include"
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
