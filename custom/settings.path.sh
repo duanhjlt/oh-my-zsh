@@ -3,8 +3,8 @@
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
 
 # JAVA_HOME
-#export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home"
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home"
+#export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home"
 
 export CLOUDSDK_CORE_PROJECT="richard-prox2"
 
@@ -47,7 +47,7 @@ export PATH=/usr/local/opt/qt/bin:$PATH
 export PATH=/usr/local/protobuf/bin:$PATH
 export PATH=$PATH:~/.pub-cache/bin
 export PATH=$PATH:~/Qt/5.15.1/clang_64/bin
-export PATH=/usr/local/opt/dart@2.8/bin:$PATH
+export PATH=/usr/local/opt/dart@2.3/bin:$PATH
 export LDFLAGS="-L/usr/local/opt/qt/lib"
 export CPPFLAGS="-I/usr/local/opt/qt/include"
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
