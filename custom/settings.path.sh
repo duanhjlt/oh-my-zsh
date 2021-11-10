@@ -55,4 +55,4 @@ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export FLUTTER_HOME=~/Projects/flutter
 export GOPROXY=https://goproxy.cn
 export GOSUMDB=sum.golang.org
-
+export DART_HOME=~/Projects/flutter/bin/cache/dart-sdk/bin
