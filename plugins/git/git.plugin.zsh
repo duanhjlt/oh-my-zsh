@@ -149,7 +149,7 @@ compdef _git ggpur=git-checkout
 alias ggpull='git pull origin $(git_current_branch)'
 compdef _git ggpull=git-checkout
 
-alias ggpush='git push origin $(git_current_branch)'
+alias ggpush='git push -u origin $(git_current_branch)'
 compdef _git ggpush=git-checkout
 
 alias ggpush2='git push origin HEAD:refs/for/$(git_current_branch)'
@@ -159,7 +159,7 @@ alias ggpusht='git push origin HEAD:refs/for/$(git_current_branch)%r=L-tianguang
 alias ggpushm='git push origin HEAD:refs/for/$(git_current_branch)%r=L-maxiaoping@qianxin.com'
 alias ggpusha='git push origin HEAD:refs/for/$(git_current_branch)%r=L-zouxu1@qianxin.com,r=L-maxiaoping@qianxin.com,r=L-tianguangxin@qianxin.com'
 
-alias ggpushf='git push -f origin $(git_current_branch)'
+alias ggpushf='git push -f -u origin $(git_current_branch)'
 compdef _git ggpushf=git-checkout
 
 alias ggsup='git branch --set-upstream-to=origin/$(git_current_branch)'
