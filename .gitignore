@@ -1,3 +1,7 @@
+locals.zsh
+log/.zsh_history
+projects.zsh
+#custom
 # custom files
 custom/
 

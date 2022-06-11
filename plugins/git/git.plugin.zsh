@@ -196,6 +196,8 @@ compdef _git ggu=git-checkout
 alias ggpur='ggu'
 alias ggpull='git pull origin "$(git_current_branch)"'
 alias ggpush='git push origin "$(git_current_branch)"'
+alias ggpushf='git push -f -u origin $(git_current_branch)'
+compdef _git ggpushf=git-checkout
 
 alias ggsup='git branch --set-upstream-to=origin/$(git_current_branch)'
 alias gpsup='git push --set-upstream origin $(git_current_branch)'
