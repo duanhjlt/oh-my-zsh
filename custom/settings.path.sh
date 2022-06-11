@@ -1,5 +1,4 @@
 currentOS=$(uname)
-echo $currentOS
 
 # mac
 if [ "$currentOS" = "Darwin" ] ; then
