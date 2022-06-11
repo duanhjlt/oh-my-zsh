@@ -1,5 +1,0 @@
-display @import UIKit
-target stop-hook add -o "target stop-hook disable"
-command script import /usr/local/opt/chisel/libexec/fblldb.py
-script fblldb.loadCommandsInDirectory('/Users/duanhongjin/.oh-my-zsh/chisel/')
-command alias sb script from subprocess import call; call(["open", '{0:s}'.format(lldb.frame.EvaluateExpression("NSHomeDirectory()")).split("\"")[1]]);
