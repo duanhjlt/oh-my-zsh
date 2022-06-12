@@ -1,3 +1,5 @@
+_CONFIG_BASE=$HOME/.oh-my-zsh/custom
+
 currentOS=$(uname)
 
 alias cls='clear'
@@ -24,13 +26,12 @@ function gi() {
     curl -L -s https://www.gitignore.io/api/$@ ;
 }
 
-# mac
-if [ "$currentOS" = "Darwin" ] ; then
-
+mkdir -p ~/.trash
 alias rm=trash
 alias r=trash
 alias rl='ls ~/.trash'
 alias ur=undelfile
+alias ct=cleartrash
 
 undelfile()
 {
@@ -40,6 +41,14 @@ trash()
 {
   mv $@ ~/.trash/
 }
+
+cleartrash()
+{ 
+  /bin/bash $_CONFIG_BASE/clear-trash.sh
+} 
+
+# mac
+if [ "$currentOS" = "Darwin" ] ; then
 
 else
   
