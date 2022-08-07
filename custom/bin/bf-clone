@@ -3,6 +3,22 @@
 repos=$1
 local_path=$2
 
+if [ -z $local_path ]; then
+    local_path=$(basename $repos)
+    local_path=${local_path%.*}
+fi
+
+echo $repos
+echo $local_path
 
 git clone $repos $local_path
+
+if [ -d "$local_path" ]; then 
+    cd $local_path
+    
+    git config user.name duanhongjin
+    git config user.email duanhongjin@binforce.cn
+
+    cd ..
+fi
 
