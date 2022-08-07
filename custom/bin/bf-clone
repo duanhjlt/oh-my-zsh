@@ -1,0 +1,8 @@
+#!/bin/bash
+
+repos=$1
+local_path=$2
+
+
+git clone $repos $local_path
+

@@ -29,6 +29,7 @@ export PATH=$PATH:~/bin:/usr/local/bin
 # mac
 if [ "$currentOS" = "Darwin" ] ; then
 
+export PATH=$PATH:~/.oh-my-zsh/custom/bin
 export PATH=$PATH:/Library/Apple/usr/bin
 # PATH
 export PATH=$PATH:$GOBIN:$GOROOT/bin
