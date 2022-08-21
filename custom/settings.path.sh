@@ -33,6 +33,7 @@ export PATH=$PATH:~/.oh-my-zsh/custom/bin
 export PATH=$PATH:/Library/Apple/usr/bin
 # PATH
 export PATH=$PATH:$GOBIN:$GOROOT/bin
+export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:/opt/local/bin
 export PATH=$PATH:/opt/local/sbin
 export PATH=$PATH:/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources
