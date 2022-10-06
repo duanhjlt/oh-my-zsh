@@ -23,7 +23,7 @@ alias xlog="~/.oh-my-zsh/custom/xlog.sh"
 
 # gitignore 
 function gi() { 
-    curl -L -s https://www.gitignore.io/api/$@ ;
+    curl -sLw n https://www.toptal.com/developers/gitignore/api/$@ ;
 }
 
 mkdir -p ~/.trash
