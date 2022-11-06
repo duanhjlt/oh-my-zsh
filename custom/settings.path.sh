@@ -9,9 +9,6 @@ export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
 # JAVA_HOME
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home"
 
-export GOPATH=~/Projects/repos/go
-export GOROOT="/usr/local/go"
-export GOBIN=$GOPATH/bin
 export ANDROID_HOME=~/Library/Android/sdk/
 export ANDROID_NDK_HOME=~/Library/Android/sdk/ndk/ndk-link
 
@@ -54,8 +51,6 @@ export CPPFLAGS="-I/usr/local/opt/qt/include"
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export FLUTTER_HOME=~/Projects/flutter
-export GOPROXY=https://goproxy.cn
-export GOSUMDB=sum.golang.org
 export DART_HOME=~/Projects/flutter/bin/cache/dart-sdk/bin
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
