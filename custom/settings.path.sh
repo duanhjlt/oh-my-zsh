@@ -52,6 +52,8 @@ export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export FLUTTER_HOME=~/Projects/flutter
 export DART_HOME=~/Projects/flutter/bin/cache/dart-sdk/bin
+export GO111MODULE="auto"
+export GOPROXY="https://goproxy.cn"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
