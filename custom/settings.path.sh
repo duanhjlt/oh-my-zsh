@@ -7,8 +7,8 @@ if [ "$currentOS" = "Darwin" ] ; then
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
 
 # JAVA_HOME
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home"
-
+#export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home"
 export ANDROID_HOME=~/Library/Android/sdk/
 export ANDROID_NDK_HOME=~/Library/Android/sdk/ndk/ndk-link
 
