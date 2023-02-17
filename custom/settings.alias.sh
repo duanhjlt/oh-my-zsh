@@ -50,6 +50,7 @@ cleartrash()
 # mac
 if [ "$currentOS" = "Darwin" ] ; then
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
+alias jd-ui="/Users/duanhongjin/Workspace/sourcecode/java/jd-gui/build/libs/run.sh"
 else
   
 fi

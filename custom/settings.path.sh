@@ -54,6 +54,7 @@ export CPPFLAGS="-I/usr/local/opt/qt/include"
 #export DART_HOME=~/Projects/flutter/bin/cache/dart-sdk/bin
 export GO111MODULE="auto"
 export GOPROXY="https://goproxy.cn"
+export IDEA_VM_OPTIONS=/Users/duanhongjin/SynologyDrive/Software/mac/jetBra/vmoptions/idea.vmoptions
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
