@@ -56,6 +56,7 @@ alias idea="/Applications/IntelliJ\ IDEA.app/Contents/MacOS/idea"
 alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 alias python="/usr/bin/python3"
 alias python2="/Library/Frameworks/Python.framework/Versions/2.7/bin/python2"
+alias pip2="/Library/Frameworks/Python.framework/Versions/2.7/bin/pip2"
 else
   
 fi
