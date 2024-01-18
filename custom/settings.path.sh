@@ -54,11 +54,11 @@ export PATH=$PATH:/usr/local/mysql/bin
 #export PATH=$PATH:~/Projects/flutter/bin
 export PATH=$PATH:~/Library/Android/sdk/platform-tools
 export PATH=$PATH:~/Library/Android/sdk/tools
-#export PATH=/usr/local/opt/qt/bin:$PATH
-export PATH=/usr/local/protobuf/bin:$PATH
+#export PATH=$PATH:/usr/local/opt/qt/bin
+export PATH=$PATH:/usr/local/protobuf/bin
 #export PATH=$PATH:~/.pub-cache/bin
 #export PATH=$PATH:~/Qt/5.15.1/clang_64/bin
-#export PATH=/usr/local/opt/dart@2.3/bin:$PATH
+#export PATH=$PATH:/usr/local/opt/dart@2.3/bin:
 export PATH=$PATH:"/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
