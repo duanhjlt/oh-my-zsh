@@ -60,6 +60,7 @@ export PATH=$PATH:/usr/local/protobuf/bin
 #export PATH=$PATH:~/Qt/5.15.1/clang_64/bin
 #export PATH=$PATH:/usr/local/opt/dart@2.3/bin:
 export PATH=$PATH:"/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin"
+export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"

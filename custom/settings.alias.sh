@@ -8,14 +8,14 @@ alias la='ls -a'
 alias vi='vim'
 alias javac="javac -J-Dfile.encoding=utf8"
 alias grep="grep --color=auto"
-alias -s js=vi
-alias -s c=vi
-alias -s java=vi
-alias -s txt=vi
-alias -s gz='tar -xzvf'
-alias -s tgz='tar -xzvf'
-alias -s zip='unzip'
-alias -s bz2='tar -xjvf'
+#alias -s js=vi
+#alias -s c=vi
+#alias -s java=vi
+#alias -s txt=vi
+#alias -s gz='tar -xzvf'
+#alias -s tgz='tar -xzvf'
+#alias -s zip='unzip'
+#alias -s bz2='tar -xjvf'
 
 alias g++='g++ -std=c++11'
 
@@ -54,10 +54,8 @@ alias jd-ui="/Users/duanhongjin/Workspace/sourcecode/java/jd-gui/build/libs/run.
 alias goland="/Applications/GoLand.app/Contents/MacOS/goland"
 alias idea="/Applications/IntelliJ\ IDEA.app/Contents/MacOS/idea"
 alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
-alias python="/usr/bin/python3"
-alias python2="/Library/Frameworks/Python.framework/Versions/2.7/bin/python2"
-alias pip="/usr/bin/pip3"
-alias pip2="/Library/Frameworks/Python.framework/Versions/2.7/bin/pip2"
+#alias python="/Library/Frameworks/Python.framework/Versions/2.7/bin/python2"
+#alias pip="/Library/Frameworks/Python.framework/Versions/2.7/bin/pip2"
 else
   
 fi
