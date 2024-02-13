@@ -56,6 +56,7 @@ alias idea="/Applications/IntelliJ\ IDEA.app/Contents/MacOS/idea"
 alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 #alias python="/Library/Frameworks/Python.framework/Versions/2.7/bin/python2"
 #alias pip="/Library/Frameworks/Python.framework/Versions/2.7/bin/pip2"
+alias uvicorn="/Users/duanhongjin/Library/Python/3.9/bin/uvicorn"
 else
   
 fi
