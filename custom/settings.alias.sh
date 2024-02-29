@@ -54,9 +54,11 @@ alias jd-ui="/Users/duanhongjin/Workspace/sourcecode/java/jd-gui/build/libs/run.
 alias goland="/Applications/GoLand.app/Contents/MacOS/goland"
 alias idea="/Applications/IntelliJ\ IDEA.app/Contents/MacOS/idea"
 alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
-#alias python="/Library/Frameworks/Python.framework/Versions/2.7/bin/python2"
-#alias pip="/Library/Frameworks/Python.framework/Versions/2.7/bin/pip2"
-alias uvicorn="/Users/duanhongjin/Library/Python/3.9/bin/uvicorn"
+#alias python2="/Library/Frameworks/Python.framework/Versions/2.7/bin/python2"
+#alias pip2="/Library/Frameworks/Python.framework/Versions/2.7/bin/pip2"
+#alias uvicorn="/Users/duanhongjin/Library/Python/3.9/bin/uvicorn"
+#alias pipreqs="~/Library/Python/3.9/bin/pipreqs"
+#alias huggingface-cli="~/Library/Python/3.9/bin/huggingface-cli"
 else
   
 fi

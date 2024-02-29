@@ -28,12 +28,12 @@ if [ "$currentOS" = "Darwin" ] ; then
 
 #export LDFLAGS="-L/usr/local/opt/qt/lib"
 #export CPPFLAGS="-I/usr/local/opt/qt/include"
-#export PUB_HOSTED_URL=https://pub.flutter-io.cn
-#export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
-#export FLUTTER_HOME=~/Projects/flutter
-#export DART_HOME=~/Projects/flutter/bin/cache/dart-sdk/bin
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+export FLUTTER_HOME=~/Workspace/flutter
+export DART_HOME=~/Workspace/flutter/bin/cache/dart-sdk/bin
 #export GO111MODULE="auto"
-#export GOPROXY="https://goproxy.cn"
+export GOPROXY="https://goproxy.cn"
 export GOPRIVATE=git.binforce.local/binforce/server/server-gomod
 export GOINSECURE=git.binforce.local
 
@@ -51,7 +51,7 @@ export PATH=$PATH:/usr/libexec
 #export PATH=$PATH:~/.fastlane/bin
 export PATH=$PATH:/usr/local/mysql/bin
 #export PATH=$PATH:~/repo/depot_tools
-#export PATH=$PATH:~/Projects/flutter/bin
+export PATH=$PATH:~/Workspace/flutter/bin
 export PATH=$PATH:~/Library/Android/sdk/platform-tools
 export PATH=$PATH:~/Library/Android/sdk/tools
 #export PATH=$PATH:/usr/local/opt/qt/bin
@@ -60,14 +60,32 @@ export PATH=$PATH:/usr/local/protobuf/bin
 #export PATH=$PATH:~/Qt/5.15.1/clang_64/bin
 #export PATH=$PATH:/usr/local/opt/dart@2.3/bin:
 export PATH=$PATH:"/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin"
-export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin
+#export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin
+
+export PYENV_ROOT=~/.pyenv
+export PATH=$PYENV_ROOT/shims:$PATH
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# ruyb
+# intel 芯片
+if [ -d "/usr/local/opt/ruby/bin" ]; then
+  export PATH=/usr/local/opt/ruby/bin:$PATH
+  export LDFLAGS="-L/usr/local/opt/ruby/lib"
+  export CPPFLAGS="-I/usr/local/opt/ruby/include"
+  export PATH=`gem environment gemdir`/bin:$PATH
+fi
+# m1 silicon 芯片
+if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
+  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+  export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+  export PATH=`gem environment gemdir`/bin:$PATH
+fi
+
+export XVM_ROOT=~/.xvm
+[ -s "$XVM_ROOT/xvm" ] && source "$XVM_ROOT/xvm"   
 
 source ~/.gvm/scripts/gvm
 
