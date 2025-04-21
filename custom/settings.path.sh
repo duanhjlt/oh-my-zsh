@@ -32,10 +32,6 @@ export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export FLUTTER_HOME=~/Workspace/flutter
 export DART_HOME=~/Workspace/flutter/bin/cache/dart-sdk/bin
-#export GO111MODULE="auto"
-export GOPROXY="https://goproxy.cn"
-export GOPRIVATE=git.binforce.local/binforce/server/server-gomod
-export GOINSECURE=git.binforce.local
 
 #export IDEA_VM_OPTIONS=/Users/duanhongjin/jetbra/vmoptions/idea.vmoptions
 
@@ -62,9 +58,6 @@ export PATH=$PATH:/usr/local/protobuf/bin
 export PATH=$PATH:"/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin"
 #export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin
 
-export PYENV_ROOT=~/.pyenv
-export PATH=$PYENV_ROOT/shims:$PATH
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
@@ -85,10 +78,13 @@ if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
 fi
 
 export XVM_ROOT=~/.xvm
-[ -s "$XVM_ROOT/xvm" ] && source "$XVM_ROOT/xvm"   
+[ -s "$XVM_ROOT/xvm" ] && . "$XVM_ROOT/xvm"   
 
-source ~/.gvm/scripts/gvm
-
+#export GO111MODULE="auto"
+export GOPROXY="https://goproxy.cn"
+export GOPRIVATE=git.binforce.local/binforce/server/server-gomod
+export GOINSECURE=git.binforce.local
+export GOPATH=~/workspace/go
 else
 # Linux
   
