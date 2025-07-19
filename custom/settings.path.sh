@@ -85,6 +85,14 @@ export GOPROXY="https://goproxy.cn"
 export GOPRIVATE=git.binforce.local/binforce/server/server-gomod
 export GOINSECURE=git.binforce.local
 export GOPATH=~/workspace/go
+export PATH=$PATH:~/workspace/go/bin
+export GEMINI_API_KEY="AIzaSyCr-EsJgc7t_gZ7xobbNLluPLAjX5fxipU"
+
+export ANTHROPIC_AUTH_TOKEN=sk-m0LvgfKjdjS0D65R0MD00EupwphhVQcRa6xWFnVnMHNtAKIs
+export ANTHROPIC_BASE_URL=https://anyrouter.top
+
+#export http_proxy=http://127.0.0.1:7890
+#export https_proxy=http://127.0.0.1:7890
 else
 # Linux
   
