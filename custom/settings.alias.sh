@@ -39,7 +39,32 @@ undelfile()
 }
 trash()
 {
-  mv $@ ~/.trash/
+#  mv $@ ~/.trash/
+  local target_dir="$HOME/.trash"
+  mkdir -p "$target_dir"
+
+  local files=()
+
+  # 解析参数，忽略 -r、-rf、-f 等选项
+  for arg in "$@"; do
+    case "$arg" in
+      -r|-rf|-f|-fr) ;;  # 忽略这些选项
+      *) files+=("$arg") ;;
+    esac
+  done
+
+  if [ ${#files[@]} -eq 0 ]; then
+    echo "Usage: trash <files...>"
+    return 1
+  fi
+
+  for f in "${files[@]}"; do
+    if [ -e "$f" ]; then
+      mv -n "$f" "$target_dir"/
+    else
+      echo "trash: cannot remove '$f': No such file or directory"
+    fi
+  done
 }
 
 cleartrash()
