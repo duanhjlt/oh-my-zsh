@@ -17,6 +17,9 @@ alias grep="grep --color=auto"
 #alias -s zip='unzip'
 #alias -s bz2='tar -xjvf'
 
+alias cc1='claude --permission-mode bypassPermissions'
+alias cf-tunnel= 'cloudflared tunnel --url http://localhost:3000'
+
 alias g++='g++ -std=c++11'
 
 alias xlog="~/.oh-my-zsh/custom/xlog.sh"
